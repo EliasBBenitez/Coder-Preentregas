@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Elias Benjamin Benitez</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,59 +13,104 @@
     </head>
     <body>
         <header>
-            <section class="banner">
-            <nav>
-                <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./conocenos.html">Conocenos</a></li>
-                <li><a href="./dondeestamipedido.html">Donde esta mi pedido</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="./unirse.html">Unirse</a></li>
-                </ul>
-                
+            <Section class="banner">     
             </nav>
-            </section>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/conocenos.html">Conocenos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/dondeestamipedido.html">Donde esta mi pedido</a>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">Menu</a>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/unirse.html">Unirse</a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </Section>
         </header>
     
         <Main>
-            <section> <!--Por ahora dejo las piezas del destacado y luego se pondra el menu entero-->
-                <h2>piezas</h2>
+            <section>
+                <h2>Piezas</h2>
                 <Section class="piezas">
                     <div class="container">
-       
-                         <div class="tarjeta">
-                                <img src="../images/Roll Bs As.jpg" alt="Destacado 1">
+                      <div class="row">
+                           <div class="tarjeta">
+                                <img src="../images/Roll Bs As.jpg" alt="pieza 1">
                                 <h3>Roll Bs As</h3>
-                                <p>Roll relleno de queso philadelphia y langostinos rebozados cubierto con una fina capa de salmón
-                               </p>
-                        </div>
+                                <p>Roll relleno de queso philadelphia y langostinos rebozados
+                                     cubierto con una fina capa de salmón</p>
+                               <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
         
-                        <div class="tarjeta">
-                            <img src="../images/Roll New York.jpg" alt="Destacado 2">
+                           <div class="tarjeta">
+                            <img src="../images/Roll New York.jpg" alt="pieza 2">
                             <h3>Roll New York</h3>
                             <p>Roll relleno de salmón y palta, cubierto con sesamo tostado.</p>
-                        </div>
+                            <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
        
-                        <div class="tarjeta">
-                            <img src="../images/Roll Philadelphia.jpg" alt="Destacado 3">
+                           <div class="tarjeta">
+                            <img src="../images/Roll Philadelphia.jpg" alt="pieza 3">
                             <h3>Roll Philadelphia</h3>
-                            <p>Roll relleno de salmón y queso philadelphia, cubierto con sésamo tostado.
-                            </p>
-                        </div>
+                            <p>Roll relleno de salmón y queso philadelphia, cubierto con sésamo tostado.</p>
+                            <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
        
-                        <div class="tarjeta">
-                            <img src="../images/Roll Philatuna.jpg" alt="Destacado 4">
+                           <div class="tarjeta">
+                            <img src="../images/Roll Philatuna.jpg" alt="pieza 4">
                             <h3>Roll Philatuna</h3>
-                            <p>Clásico Roll relleno de atún, mayonesa, verdeo, ají molido, y finlandia
-                            </p>
+                            <p>Clásico Roll relleno de atún, mayonesa, verdeo, ají molido, y finlandia</p>
+                            <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
+                           <div class="tarjeta">
+                            <img src="../images/Roll California.jpg" alt="pieza ">
+                            <h3>Roll California</h3>
+                            <p>Roll relleno de kanikama con philadelphia y palta.</p>
+                            <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
+    
+                           <div class="tarjeta">
+                            <img src="../images/Roll Napoli.jpg" alt="pieza ">
+                            <h3>Roll Napoli</h3>
+                            <p>Roll relleno de langostinos rebozados y queso Philadelphia con salsa
+                             agridulce de miel y mostaza.</p>
+                             <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
+   
+                           <div class="tarjeta">
+                            <img src="../images/Roll Persia.jpg" alt="pieza ">
+                            <h3>Roll Persia</h3>
+                            <p>Roll relleno de salmon, philadelphia y verdeo cubierto con sésamo tostado.</p>
+                            <a href="#" class="btn btn-danger">Quiero!</a>
+                           </div>
+   
+                           <div class="tarjeta">
+                            <img src="../images/Roll Tora.jpg" alt="pieza ">
+                            <h3>Roll Tora</h3>
+                            <p>Roll relleno de langostinos rebozados en panko, con queso</p>
+                            <a href="#" class="btn btn-danger">Quiero!</a>
+                          </div>
                         </div>
-                   </div>
+                     </div>
                     </Section>
             </section>
 
         </Main>
         <Footer> 
-            <section class="banner">
+            <section class="piepagina">
             <h4>Para hacer tu pedido de 11:00 a 15:00 y de 18:a 22:00, tomamos consultas hasta las 23:00 hs</h4>
            <a href=""><img src="../images/whatsapp.png" alt="Whatsapp"></a>
            <a href=""><img src="../images/facebook.png" alt="Facebook"></a>
@@ -72,6 +118,10 @@
            
             </section>
         
-        </Footer>      
+        </Footer>   
+        <script src="../js/bootstrap.bundle.min.js">
+             
+        </script>
+           
     </body>
 </html>
