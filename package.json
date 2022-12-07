@@ -1,0 +1,21 @@
+{
+  "name": "proyecto_coder_elias_benitez",
+  "version": "1.0.0",
+  "description": "Proyecto coderhouse pagina web sushi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasBBenitez/Coder-Preentregas.git"
+  },
+  "author": "Elias Benjamin Benitez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasBBenitez/Coder-Preentregas/issues"
+  },
+  "homepage": "https://github.com/EliasBBenitez/Coder-Preentregas#readme"
+}
