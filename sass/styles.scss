@@ -1,18 +1,16 @@
 *{margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
-    nav ul {
-        list-style: none;
-    text-align: end;}
-    nav ul li a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    font-family: 'Oswald', sans-serif;
-    font-size: 17px;
-    font-weight: bolder;}
-    
-    main img{block-size: 225px;}
-    
+padding: 0;
+box-sizing: border-box;}
+nav ul {
+ list-style: none;
+ text-align: end;}
+nav ul li a {
+text-decoration: none;
+ color: rgb(0, 0, 0);
+font-family: 'Oswald', sans-serif;
+font-size: 17px;
+font-weight: bolder;}
+main img{block-size: 225px;}
     main h1{text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
@@ -23,7 +21,7 @@
     font-family: 'Oswald', sans-serif;}
     
     .banner{
-         background-image: url(./../images/Banner\ Japan.jpg);
+         background-image: url(./../images/BannerJapan.jpg);
     
     block-size: auto;
     margin-top: auto;  }
@@ -116,10 +114,9 @@
         block-size: auto;
     }
     .piepagina{
-        background-image: url(../images/Banner\ Japan.jpg);
+        background-image: url(../images/BannerJapan.jpg);
     position: fixed;
     bottom: 0;
     left: 0;
-    height: auto;
-    width: 100%;
-    }
+ height: auto;
+ width: 100%;   }
