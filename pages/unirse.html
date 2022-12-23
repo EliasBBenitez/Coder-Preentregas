@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="unirse a nuestra pagina">
+        <meta name="keywords" content="unirse, email">
         <title>Elias Benjamin Benitez</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/styles.css">
@@ -43,25 +45,43 @@
         </header>
     
         <Main>
-            <section>
-                <div class="iniciasesion">
-                   <div>
-                     <h1>inicia sesion</h1>
-                       <input type="email" id="correo" placeholder="ejemplo@gmail.com">
-                       <input type="password" id="correo" placeholder="*********"> 
-                       <input type="submit" value="Registrarse">
-                       <input type="submit" value="Ingresar">
-                   </div>
-                  </div>
-            </section>
+          <div class="contact_form">
 
+            <div class="formulario">      
+              <h1>Unirse</h1>
+                  <form action="submeter-formulario.php" method="post">                        
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>              
+                        <p>
+                          <label for="telefono" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>                                          
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>                              
+                  </form>
+            </div>  
+          </div>        
         </Main>
         <Footer> 
             <section class="piepagina">
             <h4>Para hacer tu pedido de 11:00 a 15:00 y de 18:a 22:00, tomamos consultas hasta las 23:00 hs</h4>
-           <a href=""><img src="../images/whatsapp.png" alt="Whatsapp"></a>
-           <a href=""><img src="../images/facebook.png" alt="Facebook"></a>
-           <a href=""><img src="../images/instagram.png" alt="Instagram"></a>
+           <a href="https://web.whatsapp.com"><img src="../images/whatsapp.png" alt="Whatsapp"></a>
+           <a href="https://facebook.com"><img src="../images/facebook.png" alt="Facebook"></a>
+           <a href="https://instagram.com"><img src="../images/instagram.png" alt="Instagram"></a>
             </section>
         </Footer>      
         <script src="../js/bootstrap.bundle.min.js">

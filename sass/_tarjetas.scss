@@ -46,7 +46,9 @@
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-}
+                         .img{ object-fit: cover;
+    }
+  }
 
 .containerpromo .tarjeta:hover{
     transform: translateY(-15px);
