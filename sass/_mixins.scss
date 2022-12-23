@@ -1,0 +1,15 @@
+@mixin flex-direction-justificar($direction, $justify:$center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@mixin flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
